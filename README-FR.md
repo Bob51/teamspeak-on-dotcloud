@@ -17,11 +17,11 @@ Et configure le serveur et l'interface Web selon les contraintes imposées par d
 A la fin de ce push, les adresses (et le port) du serveur TeamSpeak et de l'interface Web seront affichées.
 
 ##Comment administrer le serveur Teamspeak ?
-###Soit classiquement par le client TeamSpeak grâce à la clé de privilège.
-A la première connexion au serveur avec un client TeamSpeak, une clé de privilège vous sera demandée. Vous pouvez la récupérer en exécutant cette commande:
+###Soit classiquement par le client TeamSpeak grâce à la clé de privilèges.
+A la première connexion au serveur avec un client TeamSpeak, une clé de privilèges vous sera demandée. Vous pouvez la récupérer en exécutant cette commande:
 ```dotcloud run applicationname.ts3 cat privilege_key```
 ###Soit par l'interface Web d'administration
-Pour accéder a l'interface Web d'administration, veuillez saisir le lien qui vous a été fourni a la fin du Push.
+Pour accéder à l'interface Web d'administration, veuillez saisir le lien qui vous a été fourni à la fin du Push.
 **Le mot de passe superadmin est celui que vous avez mis dans le fichier `postinstall`**
 
 ##Remerciements
